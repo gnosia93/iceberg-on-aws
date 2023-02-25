@@ -4,7 +4,7 @@ The policy for Amazon EC2 Role to enable AWS Systems Manager service core functi
 
 
 
-
+### 클러스터 생성 ###
 [iceberg-conf.json]
 ```
 [{
