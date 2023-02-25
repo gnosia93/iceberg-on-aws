@@ -19,3 +19,9 @@ $ aws emr create-cluster --release-label emr-6.5.0 \
 --service-role EMR_DefaultRole_V2 \
 --ec2-attributes InstanceProfile=EMR_EC2_DefaultRole,SubnetId=subnet-b35aa0d8
 ```
+
+
+
+## 참고자료 ##
+
+* https://aws.amazon.com/premiumsupport/knowledge-center/emr-default-role-invalid/
