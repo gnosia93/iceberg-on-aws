@@ -16,3 +16,4 @@ Iceberg adds tables to compute engines including Spark, Trino, PrestoDB, Flink, 
 ## 참고자료 ##
 
 * https://aws.amazon.com/blogs/big-data/build-an-apache-iceberg-data-lake-using-amazon-athena-amazon-emr-and-aws-glue/
+* https://iceberg.apache.org/
