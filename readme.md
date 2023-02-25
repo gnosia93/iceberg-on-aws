@@ -6,3 +6,7 @@ Iceberg adds tables to compute engines including Spark, Trino, PrestoDB, Flink, 
 * Partition layout evolution can update the layout of a table as data volume or query patterns change
 * Time travel enables reproducible queries that use exactly the same table snapshot, or lets users easily examine changes
 * Version rollback allows users to quickly correct problems by resetting tables to a good state
+
+
+
+* [EMR 클러스터 생성]()
