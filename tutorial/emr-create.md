@@ -29,7 +29,7 @@ $ aws emr create-cluster --release-label emr-6.6.0 \
 
 
 ## 참고자료 ##
-
+* https://aws.amazon.com/premiumsupport/knowledge-center/emr-failed-job-internal-error/
 * https://aws.amazon.com/premiumsupport/knowledge-center/emr-default-role-invalid/
 * https://codinghalbae.tistory.com/m/15
 * https://aws.amazon.com/ko/premiumsupport/knowledge-center/emr-cluster-bootstrap-failed/
