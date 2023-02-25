@@ -1,3 +1,9 @@
+### Role Policy 추가 ###
+
+The policy for Amazon EC2 Role to enable AWS Systems Manager service core functionality.
+
+
+
 
 [iceberg-conf.json]
 ```
