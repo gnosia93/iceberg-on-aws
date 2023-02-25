@@ -32,3 +32,4 @@ $ aws emr create-cluster --release-label emr-6.6.0 \
 
 * https://aws.amazon.com/premiumsupport/knowledge-center/emr-default-role-invalid/
 * https://codinghalbae.tistory.com/m/15
+* https://aws.amazon.com/ko/premiumsupport/knowledge-center/emr-cluster-bootstrap-failed/
