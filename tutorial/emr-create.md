@@ -16,7 +16,7 @@ $ aws emr create-cluster --release-label emr-6.5.0 \
 --log-uri s3://iceberg-seoul-20230225/ \
 --instance-type m5.xlarge \
 --instance-count 2 \
---service-role EMR_DefaultRole_V2 \
+--service-role EMR_DefaultRole \
 --ec2-attributes InstanceProfile=EMR_EC2_DefaultRole,SubnetId=subnet-b35aa0d8
 ```
 
@@ -25,3 +25,4 @@ $ aws emr create-cluster --release-label emr-6.5.0 \
 ## 참고자료 ##
 
 * https://aws.amazon.com/premiumsupport/knowledge-center/emr-default-role-invalid/
+* https://codinghalbae.tistory.com/m/15
