@@ -14,16 +14,16 @@ The policy for Amazon EC2 Role to enable AWS Systems Manager service core functi
 ```
 
 ```
-$ aws emr create-cluster --release-label emr-6.5.0 \
+$ aws emr create-cluster --release-label emr-6.6.0 \
 --applications Name=Spark \
 --configurations file://iceberg-conf.json \
 --region ap-northeast-2 \
---name Iceberg-Cluster \
+--name Iceberg \
 --log-uri s3://iceberg-seoul-20230225/ \
 --instance-type m5.xlarge \
 --instance-count 2 \
 --service-role EMR_DefaultRole \
---ec2-attributes InstanceProfile=EMR_EC2_DefaultRole,SubnetId=subnet-b35aa0d8
+--ec2-attributes InstanceProfile=EMR_EC2_DefaultRole,KeyName=aws-kp,SubnetId=subnet-b35aa0d8
 ```
 
 
