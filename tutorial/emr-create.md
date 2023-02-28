@@ -14,6 +14,16 @@ The policy for Amazon EC2 Role to enable AWS Systems Manager service core functi
 ```
 
 ```
+$ HOSTNAME=`hostname -s`
+$ YMD=`date '+%Y-%m-%d'`
+$ S3_BUCKET_NAME=iceberg-$HOSTNAME-$YMD
+
+$ aws s3api create-bucket --bucket "$S3_BUCKET_NAME" --region ap-northeast-2 \
+--create-bucket-configuration LocationConstraint=ap-northeast-2
+{
+    "Location": "http://iceberg-bcd07468d10a-2023-02-28.s3.amazonaws.com/"
+}
+
 $ aws emr create-cluster --release-label emr-6.6.0 \
 --applications Name=Spark \
 --configurations file://iceberg-conf.json \
