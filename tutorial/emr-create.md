@@ -29,7 +29,7 @@ $ aws emr create-cluster --release-label emr-6.6.0 \
 --configurations file://iceberg-conf.json \
 --region ap-northeast-2 \
 --name Iceberg \
---log-uri s3://iceberg-seoul-20230225/ \
+--log-uri s3://$S3_BUCKET_NAME \
 --instance-type m5.xlarge \
 --instance-count 2 \
 --service-role EMR_DefaultRole \
