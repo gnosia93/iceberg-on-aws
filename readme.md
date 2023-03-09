@@ -17,5 +17,6 @@ Iceberg adds tables to compute engines including Spark, Trino, PrestoDB, Flink, 
 * [빅데이터 - 스칼라(scala), 스파크(spark)로 시작하기](https://wikidocs.net/book/2350)
 * [스파크 어플리케이션 튜닝](http://kysepark.blogspot.com/2016/04/how-to-tune-your-apache-spark-jobs-part.html)
 * [스파크 성능 튜닝](https://pizzathief.oopy.io/dealing-with-spark-data-skew)
+* https://datacook.tistory.com/81
 * https://aws.amazon.com/blogs/big-data/build-an-apache-iceberg-data-lake-using-amazon-athena-amazon-emr-and-aws-glue/
 * https://iceberg.apache.org/
