@@ -12,6 +12,10 @@ Iceberg adds tables to compute engines including Spark, Trino, PrestoDB, Flink, 
 * [EMR 클러스터 생성](https://github.com/gnosia93/iceberg-on-aws/blob/main/tutorial/emr-create.md)
 
 
+## 스파크 튜닝 ##
+
+* [Executor 사이즈와 개수 정하기](https://jaemunbro.medium.com/spark-executor-%EA%B0%9C%EC%88%98-%EC%A0%95%ED%95%98%EA%B8%B0-b9f0e0cc1fd8)
+
 
 ## 참고자료 ##
 * [빅데이터 - 스칼라(scala), 스파크(spark)로 시작하기](https://wikidocs.net/book/2350)
